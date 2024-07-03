@@ -1,0 +1,46 @@
+:root{
+    --cor-fundo: #000e1a ;
+    --cor-principal: #ffffff;
+    --cor-secundaria: #ffffff ; 
+    --cor-destaque: #22dee4;
+    --cor-texto: #000000;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: var(--cor-principal);
+    color: var(--cor-destaque);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-secundaria);
+}
